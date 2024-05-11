@@ -9,7 +9,7 @@ section {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 40%);
+  transform: translate(-50%, 35%);
   width: 50vw;
   padding: 20px 20px 20px 20px;
   box-shadow: 6px 6px 17px 2px #a4a4a4;
@@ -18,5 +18,10 @@ section {
     text-align: center;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  .card-footer {
+    display: flex;
+    justify-content: center;
   }
 }
